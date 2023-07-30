@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.Region?>
+
+<HBox fx:id="messageBubble" alignment="TOP_RIGHT" fillHeight="false" stylesheets="./styles.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <Region HBox.hgrow="ALWAYS" /> <!-- This is a spacer -->
+    <Text fx:id="messageText" styleClass="message-sent" wrappingWidth="200.0">
+        <HBox.margin>
+            <Insets right="10.0" top="5.0" bottom="5.0" />
+        </HBox.margin>
+    </Text>
+</HBox>
